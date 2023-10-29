@@ -1,0 +1,22 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ServiceLauncher(1)",
+            "request": "launch",
+            "mainClass": "com.example.ServiceLauncher",
+            "projectName": "java_deamon_sample",
+            "vmArgs": "-Dlog4j.configurationFile=C:\\Users\\s0743\\java_deamon_sample\\setting\\log4j2.xml"
+        }
+    ]
+}
